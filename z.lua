@@ -1,4 +1,4 @@
-
+wait(0.4)
 
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
