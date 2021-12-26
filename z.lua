@@ -14,7 +14,7 @@ function say(msg)
 end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
-say("join the Noob Sploit desk o rd, EksAK23x4e ")
+say(" JOIN NOOB S PLOIT, EksAK23x4e ")
 wait(0.4)
 
 
