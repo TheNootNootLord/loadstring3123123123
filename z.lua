@@ -1,40 +1,23 @@
 wait(0.4)
-local blacklist = {"awdhjkawsdjkasd"}
+
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
-local owner = {"The_NootNootLord",}
+local owner = {"The_NootNootLord","awdhjkawsdjkasd"}
 local whitelisttoggle = true
 local whitelisted = {"susamongusbkaka","StvrxqzAlt","Damix2131","DamixNeverDies","AGUSTINLVF1","KohlsHouseNBCFix","KohlsH_Angler","jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
 local ownertalk = true
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
-local blacklistedtoggle = true
+local blacklistLOL = true
 
 function say(msg)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
 end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
-
 wait(0.4)
-if blacklisttoggle == true then
-    for i,v in pairs(blacklist) do
-        if game.Players:FindFirstChild(v) then
-          say("(Blacklisted NootNoot script user)LOL I USED A SCRIPT IM BLACKLISTED FROM XDDDDDDDDDDDD")
-          wait(0.2)
-          lol:Kick("(Blacklisted user moment)You are blacklisted from the script called: \n NootNoot")
-          end
-        end
-    end
-end
-if ownertalk == true then
-    for i,v in pairs(owner) do
-        if game.Players:FindFirstChild(v) then
-          say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
-          end
-        end
-    end
-end
+
+
 local function serverHop()
     while true do
         local serverList = {}
@@ -63,8 +46,32 @@ if whitelisttoggle == true then
         end
     end
 end
+
+
 wait(0.1)
-Players.PlayerAdded:Connect(function(player)
+if ownertalk == true then
+    for i,v in pairs(owner) do
+        if game.Players:FindFirstChild(v) then
+          say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
+          end
+        end
+    end
+end
+
+
+wait(0.1)
+if blacklistLOL == true then
+    for i,v in pairs(owner) do
+        if game.Players:FindFirstChild(v) then
+          say("(Blacklisted NootNoot script user)noooo i was blacklisted *crys cutely*")
+		wait(0.6)
+		game:shutdown("(Imagine being blacklisted smhh) You are blacklisted from the script called: \n NootNoot")
+          end
+        end
+    end
+end
+
+
 
 local root = game.Players.LocalPlayer.Character.HumanoidRootPart
 root.Anchored = true
