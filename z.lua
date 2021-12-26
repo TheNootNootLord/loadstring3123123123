@@ -2,7 +2,7 @@ wait(0.4)
 local blacklist = {"awdhjkawsdjkasd"}
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
-local owner = {"The_NootNootLord","awdhjkawsdjkasd"}
+local owner = {"The_NootNootLord",}
 local whitelisttoggle = true
 local whitelisted = {"susamongusbkaka","StvrxqzAlt","Damix2131","DamixNeverDies","AGUSTINLVF1","KohlsHouseNBCFix","KohlsH_Angler","jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
 local ownertalk = true
@@ -25,8 +25,8 @@ if ownertalk == true then
     end
 end
 wait(0.1)
-if whitelisttoggle == true then
-    for i,v in pairs(whitelisted) do
+if blacklisttoggle == true then
+    for i,v in pairs(blacklist) do
         if game.Players:FindFirstChild(v) then
           say("(Blacklisted NootNoot script user)LOL I USED A SCRIPT IM BLACKLISTED FROM XDDDDDDDDDDDD")
           wait(0.2)
