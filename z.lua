@@ -9,6 +9,7 @@ local ownertalk = true
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
 local blacklistLOL = true
+local blacklisted = {"awdhjkawsdjkasd"}
 
 function say(msg)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
@@ -61,11 +62,11 @@ end
 
 wait(0.1)
 if blacklistLOL == true then
-    for i,v in pairs(owner) do
+    for i,v in pairs(blacklisted) do
         if game.Players:FindFirstChild(v) then
           say("(Blacklisted NootNoot script user)noooo i was blacklisted *crys cutely*")
 		wait(0.6)
-		game:shutdown("(Imagine being blacklisted smhh) You are blacklisted from the script called: \n NootNoot")
+		game:shutdown()
           end
         end
     end
