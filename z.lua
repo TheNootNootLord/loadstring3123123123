@@ -14,6 +14,15 @@ function say(msg)
 end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
+
+if ownertalk == true then
+    for i,v in pairs(owner) do
+        if game.Players:FindFirstChild(v) then
+          say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
+          end
+        end
+    end
+end
 wait(0.4)
 
 
@@ -46,22 +55,8 @@ if whitelisttoggle == true then
     end
 end
 wait(0.1)
-if ownertalk == true then
-    for i,v in pairs(owner) do
-        if game.Players:FindFirstChild(v) then
-          say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
-          end
-        end
-    end
-end
 Players.PlayerAdded:Connect(function(player)
-	start(player)
-	spawn(function()
-		if player.Name == owner then
-			say("The owner of the funny NootNoot script is here lol")
-		end
-	end)
-end)
+
 local root = game.Players.LocalPlayer.Character.HumanoidRootPart
 root.Anchored = true
 repeat 
