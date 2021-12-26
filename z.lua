@@ -37,7 +37,7 @@ wait(0.1)
 if whitelisttoggle == true then
     for i,v in pairs(whitelisted) do
         if game.Players:FindFirstChild(v) then
-          say("(NootNoot's server de s k or d . gg/ kK Eq but way )Your server was spared due to the whitelisted user found: "..v)
+          say("Your server was spared due to the whitelisted user found: "..v)
           wait(0.2)
           while wait(0.3) do
           task.spawn(serverHop)
