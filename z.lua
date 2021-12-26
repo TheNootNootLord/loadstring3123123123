@@ -50,9 +50,6 @@ if ownertalk == true then
     for i,v in pairs(owner) do
         if game.Players:FindFirstChild(v) then
           say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
-          wait(0.2)
-          while wait(0.3) do
-          task.spawn(serverHop)
           end
         end
     end
