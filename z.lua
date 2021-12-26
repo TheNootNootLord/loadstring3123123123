@@ -16,15 +16,7 @@ end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
 
-if ownertalk == true then
-    for i,v in pairs(owner) do
-        if game.Players:FindFirstChild(v) then
-          say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
-          end
-        end
-    end
-end
-wait(0.1)
+wait(0.4)
 if blacklisttoggle == true then
     for i,v in pairs(blacklist) do
         if game.Players:FindFirstChild(v) then
@@ -35,9 +27,14 @@ if blacklisttoggle == true then
         end
     end
 end
-wait(0.4)
-
-
+if ownertalk == true then
+    for i,v in pairs(owner) do
+        if game.Players:FindFirstChild(v) then
+          say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
+          end
+        end
+    end
+end
 local function serverHop()
     while true do
         local serverList = {}
