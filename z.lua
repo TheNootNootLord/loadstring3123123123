@@ -1,5 +1,5 @@
 wait(0.4)
-local blacklist = {"susamongusbkaka"}
+local blacklist = {"awdhjkawsdjkasd"}
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
 local owner = {"The_NootNootLord","awdhjkawsdjkasd"}
