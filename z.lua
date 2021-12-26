@@ -9,7 +9,7 @@ local ownertalk = true
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
 local blacklistLOL = true
-local SkidMoment = {"ROBLOX"}
+local SkidMoment = {"ghghghghghghgh1312"}
 
 function say(msg)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
