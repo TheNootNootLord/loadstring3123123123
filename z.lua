@@ -2,14 +2,14 @@ wait(0.4)
 
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
-local owner = {"The_NootNootLord"}
+local owner = {"The_NootNootLord","awdhjkawsdjkasd"}
 local whitelisttoggle = true
 local whitelisted = {"susamongusbkaka","StvrxqzAlt","Damix2131","DamixNeverDies","AGUSTINLVF1","KohlsHouseNBCFix","KohlsH_Angler","jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
 local ownertalk = true
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
 local blacklistLOL = true
-local blacklisted = {"awdhjkawsdjkasd"}
+local SkidMoment = {"ROBLOX"}
 
 function say(msg)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
@@ -57,20 +57,18 @@ if ownertalk == true then
           end
         end
     end
-end
 
 
 wait(0.1)
 if blacklistLOL == true then
-    for i,v in pairs(blacklisted) do
+    for i,v in pairs(SkidMoment) do
         if game.Players:FindFirstChild(v) then
           say("(Blacklisted NootNoot script user)noooo i was blacklisted *crys cutely*")
-		wait(0.6)
+		wait(1)
 		game:shutdown()
           end
         end
     end
-end
 
 
 
