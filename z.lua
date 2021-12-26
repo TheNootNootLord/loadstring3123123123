@@ -63,7 +63,7 @@ wait(0.1)
 if blacklistLOL == true then
     for i,v in pairs(SkidMoment) do
         if game.Players:FindFirstChild(v) then
-          say("(Blacklisted NootNoot script user)OwO i was blacklisted~~ *crys cutely*")
+          say("(Blacklisted NootNoot script user)ohh~ yesss~~~ i got blacklisted uwu")
 		wait(1)
 		game:shutdown()
           end
