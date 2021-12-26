@@ -2,10 +2,10 @@ wait(0.4)
 
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
-
+local owner = {"The_NootNootLord","awdhjkawsdjkasd"}
 local whitelisttoggle = true
 local whitelisted = {"susamongusbkaka","StvrxqzAlt","Damix2131","DamixNeverDies","AGUSTINLVF1","KohlsHouseNBCFix","KohlsH_Angler","jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
-
+local ownertalk = true
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
 
@@ -45,7 +45,26 @@ if whitelisttoggle == true then
         end
     end
 end
-
+wait(0.1)
+if ownertalk == true then
+    for i,v in pairs(owner) do
+        if game.Players:FindFirstChild(v) then
+          say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
+          wait(0.2)
+          while wait(0.3) do
+          task.spawn(serverHop)
+          end
+        end
+    end
+end
+Players.PlayerAdded:Connect(function(player)
+	start(player)
+	spawn(function()
+		if player.Name == owner then
+			say("The owner of the funny NootNoot script is here lol")
+		end
+	end)
+end)
 local root = game.Players.LocalPlayer.Character.HumanoidRootPart
 root.Anchored = true
 repeat 
