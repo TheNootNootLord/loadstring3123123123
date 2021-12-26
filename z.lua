@@ -1,5 +1,5 @@
 wait(0.4)
-
+local blacklist = {"susamongusbkaka"}
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
 local owner = {"The_NootNootLord","awdhjkawsdjkasd"}
@@ -8,6 +8,7 @@ local whitelisted = {"susamongusbkaka","StvrxqzAlt","Damix2131","DamixNeverDies"
 local ownertalk = true
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
+local blacklistedtoggle = true
 
 function say(msg)
 	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
@@ -19,6 +20,17 @@ if ownertalk == true then
     for i,v in pairs(owner) do
         if game.Players:FindFirstChild(v) then
           say("(NootNoot script user)The owner of the NootNoot script is in the server: "..v)
+          end
+        end
+    end
+end
+wait(0.1)
+if whitelisttoggle == true then
+    for i,v in pairs(whitelisted) do
+        if game.Players:FindFirstChild(v) then
+          say("(Blacklisted NootNoot script user)LOL I USED A SCRIPT IM BLACKLISTED FROM XDDDDDDDDDDDD")
+          wait(0.2)
+          lol:Kick("(Blacklisted user moment)You are blacklisted from the script called: \n NootNoot")
           end
         end
     end
