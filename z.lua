@@ -15,7 +15,7 @@ end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
 local blacklistLOL = true
-local SkidMoment = {"ghghghghghghgh1312"}
+local skid = {"ghghghghghghgh1312"}
 wait(0.4)
 
 
@@ -61,10 +61,10 @@ if ownertalk == true then
 
 wait(0.1)
 if blacklistLOL == true then
-    for i,v in pairs(SkidMoment) do
+    for i,v in pairs(skid) do
         if game.Players:FindFirstChild(v) then
           say("(Blacklisted NootNoot script user)ohh~ yesss~~~ i got blacklisted uwu")
-		wait(1)
+		wait(1.6)
 		game:shutdown()
           end
         end
