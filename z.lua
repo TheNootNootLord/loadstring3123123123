@@ -16,8 +16,7 @@ wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
 local blacklistLOL = true
 local skid = {"ghghghghghghgh1312"}
-wait(0.4)
-game.Players:Chat(".skydive me")
+
 wait(0.4)
 
 
@@ -83,6 +82,7 @@ until workspace.Terrain._Game.Admin:FindFirstChild("Regen")
 root.Anchored = false
 root.CFrame = workspace.Terrain._Game.Admin:FindFirstChild("Regen").CFrame + Vector3.new(0,3,0)
 wait(0.2)
+
 print("no whitelisted people found D:")
 wait(0.2)
 game.Players:Chat(".loopgrab all")
