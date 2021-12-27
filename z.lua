@@ -104,7 +104,7 @@ say("brooo no wayyy CoolKids put me in their hall of clowns no wayyyyy fr??? bro
 say("NootNoot on second")
 say("NoobSploi_t on TOP")
 wait(0.3)
-game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n Noot Noot!!! 5801')
+game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n Noot Noot!!! #  5 80 1')
 wait(0.1)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Your server was destroyed by The Noot Noot Lord ')
 wait(0.1)
