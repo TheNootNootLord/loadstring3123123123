@@ -16,7 +16,8 @@ wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
 local blacklistLOL = true
 local skid = {"ghghghghghghgh1312"}
-
+wait(0.4)
+game.Players:Chat(".skydive me")
 wait(0.4)
 
 
@@ -82,7 +83,8 @@ until workspace.Terrain._Game.Admin:FindFirstChild("Regen")
 root.Anchored = false
 root.CFrame = workspace.Terrain._Game.Admin:FindFirstChild("Regen").CFrame + Vector3.new(0,3,0)
 wait(0.2)
-wait(0.1)
+game.Players:Chat(".upme")
+wait(4.9)
 print("no whitelisted people found D:")
 wait(0.2)
 game.Players:Chat(".loopgrab all")
@@ -111,7 +113,7 @@ wait(0.1)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  And join THIS server if you wanna talk to me and stuff')
 wait(0.1)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  desk o rd . gg/ PAT nx vQ 9 Se')
-wait(0.3)
+wait(0.4)
 game.Players:Chat(".shutdown")
 
 wait(6) -- this is to prevent server hopping instantly
