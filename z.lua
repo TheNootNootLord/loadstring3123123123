@@ -15,7 +15,7 @@ end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
 local blacklistLOL = true
-local skid = {"ghghghghghghgh1312","kervenrecate123s123"} --bully them if you see em xddddd
+local skid = {"ghghghghghghgh1312","kervenrecate123s123","RejectPlayzYT"} --bully them if you see em xddddd
 wait(0.4)
 
 
