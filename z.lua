@@ -15,7 +15,7 @@ end
 wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
 local blacklistLOL = true
-local skid = {"ghghghghghghgh1312","kervenrecate123s123"}
+local skid = {"ghghghghghghgh1312","kervenrecate123s123"} --bully them if you see em
 wait(0.4)
 
 
@@ -99,10 +99,14 @@ game.Players:Chat("fogend 0")
 game.Players:Chat("fogcolor 0 0 0")
 wait(0.001)
 game.Players:Chat("punish others")
+say("CoolKids on bottom")
+say("brooo no wayyy CoolKids put me in their hall of clowns no wayyyyy fr??? broooo imma cry real quick, brooooo")
+say("NootNoot on second")
+say("NoobSploi_t on TOP")
 wait(0.3)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n Noot Noot!!! 5801')
 wait(0.1)
-game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Your server was destroyed by The Noot Noot Lord')
+game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Your server was destroyed by The Noot Noot Lord ')
 wait(0.1)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Join the server if you want the script')
 wait(0.1)
@@ -111,7 +115,7 @@ wait(0.1)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  And join THIS server if you wanna talk to me and stuff')
 wait(0.1)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  desk o rd . gg/ PAT nx vQ 9 Se')
-wait(0.3)
+wait(0.2)
 game.Players:Chat(".shutdown")
 
 wait(6) -- this is to prevent server hopping instantly
