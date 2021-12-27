@@ -118,7 +118,7 @@ game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
 wait(0.2)
 game.Players:Chat(".shutdown")
 
-wait(6) -- this is to prevent server hopping instantly
+wait(6) -- this is to prevent server hopping instantly lol
 
 
 while wait(0.3) do
