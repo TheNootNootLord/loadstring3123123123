@@ -83,8 +83,6 @@ until workspace.Terrain._Game.Admin:FindFirstChild("Regen")
 root.Anchored = false
 root.CFrame = workspace.Terrain._Game.Admin:FindFirstChild("Regen").CFrame + Vector3.new(0,3,0)
 wait(0.2)
-game.Players:Chat(".upme")
-wait(4.9)
 print("no whitelisted people found D:")
 wait(0.2)
 game.Players:Chat(".loopgrab all")
