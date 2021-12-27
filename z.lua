@@ -4,7 +4,7 @@ local Players = game:GetService("Players")
 local HTTPService = game:GetService("HttpService")
 local owner = {"The_NootNootLord"}
 local whitelisttoggle = true
-local whitelisted = {"wmihuw","armnbi","susamongusbkaka","StvrxqzAlt","Damix2131","DamixNeverDies","AGUSTINLVF1","KohlsHouseNBCFix","KohlsH_Angler","jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
+local whitelisted = {"armnbi","susamongusbkaka","StvrxqzAlt","Damix2131","DamixNeverDies","AGUSTINLVF1","KohlsHouseNBCFix","KohlsH_Angler","jhone_doee110101","TestAccountKRNL","egglnq","TechnoSniperX","TechnoReaperX","TechncReaperX","egglnqalt","The_NootNootLord","leakproof9853"}
 local ownertalk = true
 local webLink = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
 local lol = game.Players.LocalPlayer
@@ -16,8 +16,6 @@ wait(0.2)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/main/Obfuscated_2.lua'))()
 local blacklistLOL = true
 local skid = {"ghghghghghghgh1312"}
-wait(0.4)
-game.Players:Chat(".skydive me")
 wait(0.4)
 
 
@@ -83,8 +81,8 @@ until workspace.Terrain._Game.Admin:FindFirstChild("Regen")
 root.Anchored = false
 root.CFrame = workspace.Terrain._Game.Admin:FindFirstChild("Regen").CFrame + Vector3.new(0,3,0)
 wait(0.2)
-game.Players:Chat(".upme")
-wait(4.9)
+
+wait(0.1)
 print("no whitelisted people found D:")
 wait(0.2)
 game.Players:Chat(".loopgrab all")
@@ -96,7 +94,7 @@ game.Players:Chat(":music 142912516")
 wait(0.001)
 game.Players:Chat("fogstart 0")
 game.Players:Chat("time 120")
-wait(0.2)
+wait(0.001)
 game.Players:Chat("fogend 0")
 game.Players:Chat("fogcolor 0 0 0")
 wait(0.001)
@@ -113,7 +111,7 @@ wait(0.1)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  And join THIS server if you wanna talk to me and stuff')
 wait(0.1)
 game.Players:Chat('h \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  desk o rd . gg/ PAT nx vQ 9 Se')
-wait(0.4)
+wait(0.3)
 game.Players:Chat(".shutdown")
 
 wait(6) -- this is to prevent server hopping instantly
