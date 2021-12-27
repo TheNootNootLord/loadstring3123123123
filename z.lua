@@ -17,6 +17,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/TheNootNootLord/BRO/m
 local blacklistLOL = true
 local skid = {"ghghghghghghgh1312"}
 wait(0.4)
+game.Players:Chat(".regen")
+game.Players:Chat(".skydive me")
+game.Players:Chat(".skydive me")
+game.Players:Chat(".skydive me")
+game.Players:Chat(".skydive me")
+wait(0.4)
 
 
 local function serverHop()
@@ -94,7 +100,7 @@ game.Players:Chat(":music 142912516")
 wait(0.001)
 game.Players:Chat("fogstart 0")
 game.Players:Chat("time 120")
-wait(0.001)
+wait(0.2)
 game.Players:Chat("fogend 0")
 game.Players:Chat("fogcolor 0 0 0")
 wait(0.001)
